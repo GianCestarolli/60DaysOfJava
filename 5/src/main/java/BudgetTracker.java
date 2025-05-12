@@ -24,7 +24,12 @@ public class BudgetTracker {
         double TotalExpenses = (Rent + Groceries + Transportation + Entmt);
         double RemainingBudget = (Income - TotalExpenses);
 
-        double RentP = ((Rent/Income) * 100);
-        System.out.println(RentP);
+        double RentP = ((Rent/TotalExpenses) * 100);
+        double GroceriesP = ((Groceries/TotalExpenses) * 100);
+        double TransportationP = ((Transportation/TotalExpenses) * 100);
+        double EntmtP = ((Entmt/TotalExpenses) * 100);
+
+
+
     }
 }
