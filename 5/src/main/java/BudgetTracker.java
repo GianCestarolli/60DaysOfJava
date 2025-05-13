@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class BudgetTracker {
@@ -29,6 +30,16 @@ public class BudgetTracker {
         double TransportationP = ((Transportation/TotalExpenses) * 100);
         double EntmtP = ((Entmt/TotalExpenses) * 100);
 
+        //Summary
+        System.out.println("\nYour Monthly Income: " + Income);
+        System.out.println("Your Total expenses: " + TotalExpenses);
+        System.out.println("Your remaining budget: " + RemainingBudget);
+
+        System.out.println("\nPercentage of money spent on:\n");
+        System.out.println("Rent: " + RentP + "%");
+        System.out.println("Groceries: " + GroceriesP + "%");
+        System.out.println("Transportation: " + TransportationP + "%");
+        System.out.println("Entertainment: " + EntmtP + "%");
 
 
     }
