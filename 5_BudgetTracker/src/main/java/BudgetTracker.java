@@ -25,7 +25,7 @@ public class BudgetTracker {
         double RemainingBudget = (Income - TotalExpenses);
 
         double RentP = ((Rent/TotalExpenses) * 100);
-        double RoundedRentP = Math.round(RentP*100) / 100.0;
+        double RoundedRentP = Math.round(RentP*100) / 100.0;//Rounding to 2 decimal places.
 
         double GroceriesP = ((Groceries/TotalExpenses) * 100);
         double RoundedGroceriesP = Math.round(GroceriesP*100) / 100.0;
