@@ -12,6 +12,7 @@
         <module name="3" />
         <module name="4" />
         <module name="5" />
+        <module name="7" />
       </profile>
     </annotationProcessing>
   </component>
