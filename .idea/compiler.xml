@@ -13,6 +13,7 @@
         <module name="3" />
         <module name="4" />
         <module name="5" />
+        <module name="8Loops" />
       </profile>
     </annotationProcessing>
   </component>
