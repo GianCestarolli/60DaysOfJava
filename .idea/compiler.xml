@@ -9,10 +9,10 @@
         <module name="6_IfElse" />
         <module name="1" />
         <module name="2" />
+        <module name="7SwitchCase" />
         <module name="3" />
         <module name="4" />
         <module name="5" />
-        <module name="7" />
       </profile>
     </annotationProcessing>
   </component>
