@@ -2,6 +2,7 @@ package Exercises;
 
 import java.util.Scanner;
 
+// Sum
 public class Ex7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
